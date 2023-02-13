@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Navbar from 'components/navbar'
 import Main from 'components/home'
 import Points from 'components/points'
-import Services from 'components/services'
 import About from 'components/about'
 import Package from 'components/Member'
 import Testimonial from 'components/testimonial'
@@ -18,7 +17,6 @@ export default function Home() {
       <Navbar />
       <Main />
       <Points />
-      <Services />
 
       <About />
       <Package />

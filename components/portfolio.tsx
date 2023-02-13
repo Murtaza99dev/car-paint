@@ -13,7 +13,7 @@ import G10 from '../assests/gallery-small-10.jpg'
 
 const Portfolio = () => {
   return (
-    <div className='w-full h-screen bg-slate-100 md:h-screen'>
+    <div className='w-full h-screen bg-slate-100 md:w-full md:h-full md:mt-0'>
         <div className='w-full text-center text-red font-bold mt-24' >
             <h1 className='text-6xl'>Our Portfolio</h1>
             <p className=''>A great Work history</p>

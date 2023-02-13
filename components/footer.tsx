@@ -5,7 +5,7 @@ import { IoCallSharp, IoCopySharp, IoLocationSharp, IoLogoFacebook, IoLogoGoogle
 import {AiFillCopyrightCircle} from "react-icons/ai"
 const Footer = () => {
     return (
-        <div className='w-full h-[530px] bg-gray-900 absolute md:w-screen md:mt-0'>
+        <div className='w-full h-[530px] bg-gray-900 md:bg-cover absolute md:w-full md:mt-0'>
             <div className='ml-60 w-48 h-48 mt-16 md:ml-24 md:w-40'>
                 <Image src={Logo} alt="" />
                 <p className='text-white w-[400px] mt-6 md:text-sm'>Lorem ipsum dolor sit amet   corrupti explicabo possimus hic iure quod a error corporis, qui quaerat?</p>
@@ -31,10 +31,10 @@ const Footer = () => {
                 <div className='flex gap-4  mt-6'><IoLogoFacebook className='w-8 h-8 bg-red text-white rounded-lg hover:bg-white hover:text-red' /><IoLogoTwitter className='w-8 h-8 bg-red text-white rounded-lg hover:bg-white hover:text-red' /><IoLogoGoogle className='w-8 h-8 bg-red text-white rounded-lg hover:bg-white hover:text-red' /></div>
 
             </div>
-            <div className='-mt-48 ml-[700px] md:ml-[550px]'>
-                <h1 className='text-white font-bold text-4xl'>Useful Links</h1>
-                <hr className='mr-[600px] mt-4 bg-red h-[4px] text-red rounded-full md:w-52' />
-                <div className='flex gap-20 mt-8 text-white  text-lg md:text-sm md:gap-10'>
+            <div className='lg:-mt-48 lg:ml-[700px] md:ml-[550px]'>
+                <h1 className='text-white lg:font-bold lg:text-4xl'>Useful Links</h1>
+                <hr className='lg:mr-[600px] lg:mt-4 bg-red lg:h-[4px] text-red rounded-full md:w-52' />
+                <div className='flex gap-20 lg:mt-8 text-white  lg:text-lg md:text-sm md:gap-10'>
                     <ul className='flex flex-col gap-2'>
                         <li className='hover:text-red hover:cursor-pointer'>Home</li>
                         <li className='hover:text-red hover:cursor-pointer'>Service</li>
@@ -51,23 +51,23 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className='w-full'>
+            <div className='w-full md:w-full'>
 
-                <div className='flex justify-end -mt-72 text-4xl font-bold text-white mr-72 md:-mt-[244px] md:mr-[200px]'>
-                    <hr className='-mr-[320px] mt-[76.5px] bg-red h-[4px] text-red rounded-full w-80' />
+                <div className='flex justify-end lg:-mt-72 lg:text-4xl lg:font-bold text-white lg:mr-72 md:-mt-[244px] md:mr-[200px]'>
+                    <hr className='lg:-mr-[320px] lg:mt-[76.5px] bg-red h-[4px] text-red rounded-full lg:w-80' />
                     <h1 className='md:mt-5'>NewsLetter</h1>
 
                 </div>
-                <div className='text-xl flex justify-end md:-mr-20'>
-                    <p className='w-96 mr-24 mt-8 text-white'>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                <div className='lg:text-xl flex justify-end md:w-full'>
+                    <p className='lg:w-96 lg:mr-24 lg:mt-8 text-white md:mr-4'>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
                 </div>
-                <div className='flex justify-end mr-44 mt-10 h-12 md:mr-24'>
+                <div className='flex justify-end lg:mr-44 lg:mt-10 lg:h-12 md:mr-24'>
                     <input type="email" placeholder='enter E-mail address' className='rounded-lg' />
-                    <button className='bg-red text-white text-xl ml-2 w-24 rounded-lg hover:text-red hover:bg-white '>Send Us</button>
+                    <button className='bg-red text-white lg:text-xl lg:ml-2 lg:w-24 rounded-lg hover:text-red hover:bg-white '>Send Us</button>
                 </div>
             </div>
-            <div className='bg-red w-full h-16 mt-[225px] flex'>
-                <h3 className='flex text-white ml-60 mt-6 text-lg'>Carzone<AiFillCopyrightCircle/>-2023-Designed By Ghulam Murtaza</h3>
+            <div className='bg-red w-full h-16 mt-[225px] flex md:w-full'>
+                <h3 className='flex text-white ml-60 mt-6 text-lg md:ml-24'>Carzone<AiFillCopyrightCircle/>-2023-Designed By Ghulam Murtaza</h3>
 
 
             </div>

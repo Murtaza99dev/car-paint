@@ -2,14 +2,14 @@ import React from 'react'
 
 const Package = () => {
   return (
-    <div className='w-full h-screen md:w-screen md:mt-52 '>
-      <div>
-        <h1 className='text-center text-6xl font-bold mt-12'>Our Packages</h1>
+    <div className='lg:w-full  bg-slate-200  md:bg-cover md:mt-0 lg:mt-0 lg:h-screen'>
+      <div className=''>
+        <h1 className='lg:w-full lg:text-center lg:text-6xl font-bold lg:mt-10 md:mt-0 md:text-3xl md:w-full md:text-center '>Our Packages</h1>
       </div>
 
-      <div className='flex justify-center gap-48 mt-20'>
+      <div className='lg:flex justify-center gap-48 lg:mt-32 md:flex md:w-full md:gap-28 md:mt-12'>
         <div className='flex flex-col'>
-          <div className='flex gap-10'>
+          <div className='flex gap-10 md:gap-2'>
             <h1 className='text-red font-bold text-3xl'>Starter</h1>
             <p className='text-2xl bg-red w-16 text-center text-white font-bold'>$25</p>
           </div>

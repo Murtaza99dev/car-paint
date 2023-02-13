@@ -5,7 +5,7 @@ import B2 from '../assests/blog-2.jpg'
 import B3 from '../assests/blog-3.jpg'
 const Blog = () => {
     return (
-        <div className='w-full h-screen bg-slate-200 mt-96 md:w-screen md:h-full'>
+        <div className='w-full h-screen bg-slate-200 md:bg-cover mt-96 md:w-full md:h-full md:mt-0'>
             <div className='w-full text-center py-12 text-red text-6xl font-bold'>
                 <h1>Our Blog</h1>
             </div>
