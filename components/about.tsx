@@ -4,10 +4,10 @@ import BG from '../assests/feature-bg.jpg'
 const About = () => {
     return (
         <div>
-            <div className=' w-full'>
+            <div className=' w-full md:w-screen md:h-screen md:mt-48'>
                 <h1 className='absolute mt-8 text-center w-full text-6xl font-bold text-red '>About Us</h1>
                 <Image src={BG} alt="bg" />
-                    <div className='w-[700px] h-[320px] bg-red opacity-70 absolute -mt-[700px] ml-[900px]'>
+                    <div className='w-[700px] h-[320px] bg-red opacity-70 absolute -mt-[700px] ml-[900px] md:ml-60 md:-mt-[500px]'>
                         <div className='text-white mx-6 mt-8'>
                             <h3 className='text-2xl font-bold'>Why we are the best?</h3>
                             <p className='mt-4 font-bold'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>

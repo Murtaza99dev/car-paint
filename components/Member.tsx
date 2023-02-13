@@ -2,7 +2,7 @@ import React from 'react'
 
 const Package = () => {
   return (
-    <div className='w-full h-screen '>
+    <div className='w-full h-screen md:w-screen md:mt-52 '>
       <div>
         <h1 className='text-center text-6xl font-bold mt-12'>Our Packages</h1>
       </div>

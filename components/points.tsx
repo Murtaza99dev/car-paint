@@ -8,8 +8,8 @@ import C5 from "../assests/c-5.jpg"
 const Points = () => {
     return (
         <div>
-            <div className=' bg-slate-100 h-60 bg-cover w-full flex justify-center'>
-                <div className='gap-24 w-48 py-8 flex  justify-center'>
+            <div className=' bg-slate-100 h-60 bg-cover w-full flex justify-center md:bg-cover md:w-screen '>
+                <div className='gap-24 w-48 py-8 flex  justify-center md:w-32 md:h-60'>
                     <Image src={C1} alt="c1" />
                     <Image src={C2} alt="c1" />
                     <Image src={C3} alt="c1" />

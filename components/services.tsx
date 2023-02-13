@@ -10,7 +10,7 @@ import Logos from '../assests/quality.png'
 
 const Services = () => {
     return (
-        <div className='h-screen'>
+        <div className='h-screen md:bg-cover md:h-screen'>
 
             <div className=' w-full flex justify-end'>
                 <Image src={Logos} alt="s" className='w-48' />
