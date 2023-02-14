@@ -2,19 +2,19 @@ import React from 'react'
 
 const Package = () => {
   return (
-    <div className='lg:w-full  bg-slate-200  md:bg-cover md:mt-0 lg:mt-0 lg:h-screen'>
-      <div className=''>
-        <h1 className='lg:w-full lg:text-center lg:text-6xl font-bold lg:mt-10 md:mt-0 md:text-3xl md:w-full md:text-center '>Our Packages</h1>
+    <div className='w-full mt-44'>
+      <div className='text-4xl font-bold text-center'>
+        <h1 className=''>Our Packages</h1>
       </div>
 
-      <div className='lg:flex justify-center gap-48 lg:mt-32 md:flex md:w-full md:gap-28 md:mt-12'>
-        <div className='flex flex-col'>
-          <div className='flex gap-10 md:gap-2'>
-            <h1 className='text-red font-bold text-3xl'>Starter</h1>
-            <p className='text-2xl bg-red w-16 text-center text-white font-bold'>$25</p>
+      <div className='ml-4'>
+        <div className=''>
+          <div className='flex text-red font-bold text-3xl gap-10 mt-20'>
+            <h1 className=''>Starter</h1>
+            <p className='text-2xl bg-red w-16 text-center text-white font-bold '>$25</p>
           </div>
           <div className='leading-10 mt-8'>
-            <ul className='list-disc '>
+            <ul className='mt-8 list-disc ml-4'>
               <li>Wiper Blade Installation</li>
               <li>Check Engine Light</li>
               <li>Air Filter Replacement</li>
@@ -29,12 +29,12 @@ const Package = () => {
           </div>
         </div>
         <div>
-          <div className='flex gap-10'>
+          <div className='flex gap-10 mt-6'>
             <h1 className='text-red font-bold text-3xl'>Advance</h1>
             <p className='text-2xl bg-red w-16 text-center text-white font-bold'>$65</p>
           </div>
           <div className='leading-10 mt-8'>
-            <ul className='list-disc'>
+            <ul className='list-disc ml-4'>
               <li>Wiper Blade Installation</li>
               <li>Check Engine Light</li>
               <li>Air Filter Replacement</li>
@@ -49,12 +49,12 @@ const Package = () => {
           </div>
         </div>
         <div>
-          <div className='flex'>
+          <div className='flex mt-6 gap-10'>
             <h1 className='text-red font-bold text-3xl'>Premium</h1>
             <p className='text-2xl bg-red w-16 text-center text-white font-bold'>$110</p>
           </div>
           <div className='leading-10 mt-8'>
-            <ul className='list-disc'>
+            <ul className='list-disc ml-4'>
               <li>Wiper Blade Installation</li>
               <li>Check Engine Light</li>
               <li>Air Filter Replacement</li>

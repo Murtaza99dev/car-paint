@@ -10,25 +10,21 @@ import Blog from 'components/blog'
 import Free from 'components/free'
 import Contact from 'components/contact'
 import Footer from 'components/footer'
+import Services from 'components/services'
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Main />
-      <Points />
-
-      <About />
-      <Package />
-      <Testimonial />
+      <Main/>
+      <Points/>
+      <Services/>
+      <About/>
+      <Package/>
       <Portfolio/>
-      <Blog />
+      <Testimonial/>
       <Free/>
       <Contact/>
-      <Footer/>
-
-
-
     </div>
   )
 }
