@@ -31,7 +31,7 @@ const Testimonial = () => {
                 </div>
                 <Image src={T3} alt="" className='mt-4 lg:hidden' />
                 <div className='bg-red mt-4 text-white p-2'>
-                    <Image src={T3} alt="" className='mt-4 ' />
+                    <Image src={T3} alt="" className='mt-4 rounded-lg' />
                     <h1 className='text-xl font-bold md:text-3xl'>Imaan Butt</h1>
                     <p className=''>⭐⭐⭐⭐⭐</p>
                     <hr className='' />

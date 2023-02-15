@@ -23,11 +23,11 @@ const Navbar = () => {
                     </div>
                     <div className='md:flex sm:space-x-8 hidden md:text-white '>
                         <ul className='md:flex sm:text-base cursor-pointer md:space-x-4 md:text-xl md:font-bold md:mr-2 lg:text-2xl lg:mr-6  lg:space-x-10'>
-                            <li className='hover:text-red'><a>Home</a></li>
-                            <li className='hover:text-red'><a>Service</a></li>
-                            <li className='hover:text-red'><a>About</a></li>
-                            <li className='hover:text-red'><a>Testimonial</a></li>
-                            <li className='hover:text-red'><a>Contact</a></li>
+                            <li className='hover:text-red'><a href='/'>Home</a></li>
+                            <li className='hover:text-red'><a href='/'>Service</a></li>
+                            <li className='hover:text-red'><a href='/'>About</a></li>
+                            <li className='hover:text-red'><a href='/'>Testimonial</a></li>
+                            <li className='hover:text-red'><a href='/'>Contact</a></li>
                         </ul>
                     </div>
                     <button className='block text-white md:hidden ' onClick={handleOpen}>

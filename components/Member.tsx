@@ -14,7 +14,7 @@ const Package = () => {
             <p className='text-2xl bg-red w-16 text-center text-white font-bold md:text-3xl'>$25</p>
           </div>
           <div className='leading-10 mt-8'>
-            <ul className='mt-8 list-disc ml-4 md:text-xl md:space-y-4'>
+            <ul className='mt-8 list-disc ml-4 md:text-xl md:space-y-4 lg:w-60'>
               <li>Wiper Blade Installation</li>
               <li>Check Engine Light</li>
               <li>Air Filter Replacement</li>
