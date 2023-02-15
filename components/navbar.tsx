@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Image src={Logo} alt="logo" className='w-28 ml-8 md:w-48 md:h-32 lg:w-48 lg:-ml-0 ' />
                     </div>
                     <div className='md:flex sm:space-x-8 hidden md:text-white '>
-                        <ul className='md:flex sm:text-base cursor-pointer md:space-x-4 md:text-xl md:font-bold md:mr-2 lg:text-2xl '>
+                        <ul className='md:flex sm:text-base cursor-pointer md:space-x-4 md:text-xl md:font-bold md:mr-2 lg:text-2xl lg:mr-6  lg:space-x-10'>
                             <li className='hover:text-red'><a>Home</a></li>
                             <li className='hover:text-red'><a>Service</a></li>
                             <li className='hover:text-red'><a>About</a></li>
