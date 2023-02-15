@@ -5,7 +5,7 @@ import { IoCallSharp, IoCopySharp, IoLocationSharp, IoLogoFacebook, IoLogoGoogle
 import {AiFillCopyrightCircle} from "react-icons/ai"
 const Footer = () => {
     return (
-        <div className='w-full h-[530px] bg-gray-900 md:bg-cover absolute md:w-full md:mt-0'>
+        <div className='w-full h-[530px] bg-gray-900 md:bg-cover absolute md:w-full md:mt-0 sm:hidden md:hidden'>
             <div className='ml-60 w-48 h-48 mt-16 md:ml-24 md:w-40'>
                 <Image src={Logo} alt="" />
                 <p className='text-white w-[400px] mt-6 md:text-sm'>Lorem ipsum dolor sit amet   corrupti explicabo possimus hic iure quod a error corporis, qui quaerat?</p>

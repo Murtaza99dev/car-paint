@@ -3,7 +3,7 @@ import React from 'react'
 const Main = () => {
     return (
         <div className='md:w-full absolute lg:w-full'>
-            <div className='bg-sky-300 w-[300px] h-[500px] px-4 ml-10 mt-20 rounded-lg md:mt-48 md:ml-72 md:h-[550px] md:w-[400px] lg:ml-[600px] lg:mt-32'>
+            <div className='bg-sky-300 w-[300px] h-[500px] px-4 ml-8 mt-20 rounded-lg md:mt-48 md:ml-72 md:h-[550px] md:w-[400px] lg:ml-[600px] lg:mt-32'>
                 <div className='text-center absolute md:ml-6'>
                     <h1 className='font-zeyada text-2xl mt-8 md:text-4xl'>Best Car detailing service</h1>
                     <h1 className='text-red font-extrabold text-3xl md:text-2xl'>BOOK YOUR APPOINTMENT</h1>

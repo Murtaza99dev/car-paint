@@ -14,7 +14,7 @@ const Navbar = () => {
         setOpen(false)
     }
     return (
-        <div className='lg:w-full'>
+        <div className='w-full md:w-full lg:w-full'>
             <nav className='conatiner mx-auto w-full absolute md:mt-12 lg:w-full'>
                     <Main />
                 <div className='flex items-center bg-gray-900 opacity-95 justify-between w-full fixed md:h-20'>
@@ -26,7 +26,6 @@ const Navbar = () => {
                             <li className='hover:text-red'><a>Home</a></li>
                             <li className='hover:text-red'><a>Service</a></li>
                             <li className='hover:text-red'><a>About</a></li>
-                            <li className='hover:text-red'><a>Blog</a></li>
                             <li className='hover:text-red'><a>Testimonial</a></li>
                             <li className='hover:text-red'><a>Contact</a></li>
                         </ul>

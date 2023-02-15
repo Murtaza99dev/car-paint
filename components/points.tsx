@@ -7,9 +7,9 @@ import C4 from "../assests/c-4.jpg"
 import C5 from "../assests/c-5.jpg"
 const Points = () => {
     return (
-        <div className='w-full'>
-            <div className='w-full lg:flex lg:jusify-center'>
-                <div className='w-full grid grid-cols-2 lg:flex lg:w-48 lg:ml-40 grayscale'>
+        <div className='w-full h-48'>
+            <div className='w-full lg:flex '>
+                <div className='w-full grid grid-cols-2 lg:flex lg:w-48 lg:ml-80 grayscale'>
 
                     <Image src={C1} alt="c1" />
                     <Image src={C2} alt="c1" />
