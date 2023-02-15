@@ -15,7 +15,7 @@ const Testimonial = () => {
             <div className=' mt-10 w-full flex flex-col lg:grid lg:grid-cols-3 lg:gap-6'>
                 <Image src={T1} alt="" className='rounded-lg lg:hidden' />
                 <div className='bg-red mt-4 text-white p-2'>
-                    <Image src={T1} alt="" className='rounded-lg lg:mt-4' />
+                    <Image src={T1} alt="" className='rounded-lg lg:mt-4 ' />
                     <h1 className='font-bold text-xl md:text-3xl'>Sanam Doe</h1>
                     <p className=''>⭐⭐⭐⭐⭐</p>
                     <hr className='' />
@@ -23,7 +23,7 @@ const Testimonial = () => {
                 </div>
                 <Image src={T2} alt="" className=' mt-8 rounded-lg lg:hidden' />
                 <div className='bg-red mt-4 text-white p-2'>
-                    <Image src={T2} alt="" className=' mt-8 rounded-lg lg:mt-4' />
+                    <Image src={T2} alt="" className=' mt-8 rounded-lg lg:mt-4 ' />
                     <h1 className='text-xl font-bold md:text-3xl'>William Hoy</h1>
                     <p className=''>⭐⭐⭐⭐⭐</p>
                     <hr className='' />
@@ -31,7 +31,7 @@ const Testimonial = () => {
                 </div>
                 <Image src={T3} alt="" className='mt-4 lg:hidden' />
                 <div className='bg-red mt-4 text-white p-2'>
-                    <Image src={T3} alt="" className='mt-4' />
+                    <Image src={T3} alt="" className='mt-4 ' />
                     <h1 className='text-xl font-bold md:text-3xl'>Imaan Butt</h1>
                     <p className=''>⭐⭐⭐⭐⭐</p>
                     <hr className='' />

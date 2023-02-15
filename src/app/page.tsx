@@ -8,7 +8,6 @@ import Testimonial from 'components/testimonial'
 import Portfolio from 'components/portfolio'
 import Free from 'components/free'
 import Contact from 'components/contact'
-import Footer from 'components/footer'
 import Services from 'components/services'
 
 export default function Home() {
@@ -23,7 +22,6 @@ export default function Home() {
       <Testimonial/>
       <Free/>
       <Contact/>
-      <Footer/>
     </div>
   )
 }

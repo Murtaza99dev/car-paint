@@ -15,7 +15,7 @@ const Navbar = () => {
     }
     return (
         <div className='w-full md:w-full lg:w-full'>
-            <nav className='conatiner mx-auto w-full absolute md:mt-12 lg:w-full'>
+            <nav className='conatiner mx-auto w-full md:full absolute md:mt-12 lg:w-full'>
                     <Main />
                 <div className='flex items-center bg-gray-900 opacity-95 justify-between w-full fixed md:h-20'>
                     <div className='pt-2 cursor-pointer bg-red lg:h-40 lg:w-60 lg:ml-32 transition -skew-x-12'>
