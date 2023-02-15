@@ -16,7 +16,6 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Main/>
       <Points/>
       <Services/>
       <About/>
@@ -25,6 +24,7 @@ export default function Home() {
       <Testimonial/>
       <Free/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
